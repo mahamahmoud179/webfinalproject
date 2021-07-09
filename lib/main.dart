@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
             canvasColor: secondaryColor,
           ),
           // home: MainScreen(),
-          initialRoute: AuthScreen.id,
+          initialRoute: LandingPage.id,
           routes: {
             // MyHomepage.id: (context) => MyHomepage(),
             // Registration.id: (context) => Registration(),

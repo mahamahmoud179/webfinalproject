@@ -1,3 +1,4 @@
+import 'package:admin/config/constants.dart';
 import 'package:admin/firebase/firebasehelper.dart';
 import 'package:admin/landing_page.dart';
 import 'package:admin/screens/main/main_screen.dart';
@@ -30,7 +31,7 @@ class _AuthScreenState extends State<AuthScreen> {
         isLoading=true;
       });
       user = await signInWithEmailPassword(email, password);
-      print(user!.email);
+      // print(user!.email);
         Navigator.of(context).pushNamed(LandingPage.id);
 
       setState(() {
@@ -80,7 +81,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         border: const OutlineInputBorder()),
                     validator: (val) {
                       if (val!.isEmpty) return "Enter A Valid Email";
-                      else if(val.trim() != "admin@gmail.com")return "Enter A Valid Email";
+                      else if(val.trim() != admin)return "Enter A Valid Email";
                     },
                   ),
                   SizedBox(

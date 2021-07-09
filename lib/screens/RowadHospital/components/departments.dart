@@ -61,6 +61,7 @@ class HomeState extends State<Departments> {
                           gridDelegate:
                               SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisSpacing: 10.0,
+                                  mainAxisSpacing: 10.0,
                                   crossAxisCount: 3),
                           padding: EdgeInsets.all(10.0),
                           itemCount: departmentController.departments.length,

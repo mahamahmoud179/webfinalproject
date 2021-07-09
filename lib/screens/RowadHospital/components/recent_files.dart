@@ -23,6 +23,7 @@ class RecentFiles extends StatefulWidget {
 
 class _RecentFilesState extends State<RecentFiles> {
   List<Request> recent=[];
+
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
@@ -52,7 +53,7 @@ class _RecentFilesState extends State<RecentFiles> {
             recent.add(Request.fromSnap(element));
           }
         });
-        print(recent);
+        // print(recent);
 
         return Container(
           padding: EdgeInsets.all(defaultPadding),
@@ -152,7 +153,7 @@ class _RecentFilesState extends State<RecentFiles> {
                 request.state = val.toString();
                 RequestsController.updateRequestStatus(
                     request.id!, val.toString());
-                print(val);
+                // print(val);
               });
             }
           },

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'dart:html';
+
 
 import 'package:admin/config/constants.dart';
 import 'package:admin/controllers/department_controller.dart';
@@ -43,11 +43,12 @@ class DeviceHistoryScreen extends StatefulWidget {
 class _DeviceHistoryScreenState extends State<DeviceHistoryScreen> {
   void _launchURL(String url) async =>
       await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
+
   List<Request> deviceRequests = [];
   List<Request> recentRequests = [];
   List<Request> oldRequests = [];
 
-  String? _selectedStatus;
+  // String? _selectedStatus;
 
   @override
   Widget build(BuildContext context) {
@@ -125,6 +126,7 @@ class _DeviceHistoryScreenState extends State<DeviceHistoryScreen> {
                         .collection('requests').orderBy("timestamp", descending: true)
                         .where("device_id", isEqualTo: widget.deviceID)
                         .snapshots(),
+
                     builder: (context, snapshot) {
                       if (snapshot.hasError) {
                         print(snapshot.error);

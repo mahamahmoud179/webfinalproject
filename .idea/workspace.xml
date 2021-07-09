@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b38c2bb-7812-43be-b745-78bec78f8a08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/reqest.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/reqest.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/RowadHospital/components/departments.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/RowadHospital/components/departments.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/RowadHospital/components/device_history_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/RowadHospital/components/device_history_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/RowadHospital/components/file_info_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/RowadHospital/components/file_info_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/RowadHospital/components/my_fields.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/RowadHospital/components/my_fields.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/RowadHospital/components/recent_files.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/RowadHospital/components/recent_files.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/RowadHospital/documents_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/RowadHospital/documents_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/main/auth_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/main/auth_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,10 +99,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="31" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1625579010534" />
-    <state x="339" y="176" key="run.anything.popup" timestamp="1625661000638">
+    <state x="390" y="117" width="585" height="534" key="find.popup" timestamp="1625787843206">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="339" y="176" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1625661000638" />
+    <state x="390" y="117" width="585" height="534" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1625787843206" />
+    <state x="339" y="176" key="run.anything.popup" timestamp="1625819959299">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="176" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1625819959299" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1625772686721">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

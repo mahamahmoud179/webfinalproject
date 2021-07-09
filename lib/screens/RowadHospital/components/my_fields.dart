@@ -21,7 +21,7 @@ class MyFiles extends StatefulWidget {
 class _MyFilesState extends State<MyFiles> {
   @override
   Widget build(BuildContext context) {
-    final Size _size = MediaQuery.of(context).size;
+    // final Size _size = MediaQuery.of(context).size;
     return Consumer<DepartmentController>(
         builder: (context, departmentController, child) {
       return Column(
@@ -59,10 +59,10 @@ class _MyFilesState extends State<MyFiles> {
           // // childAspectRatio: _size.width < 650 ? 1.3 : 1,
           // devices: departmentController.allDevices,
           // ),
-            tablet: FileInfoCardGridView(
+            tablet: FileInfoCardListView(
               devices: departmentController.allDevices,
             ),
-            desktop: FileInfoCardGridView(
+            desktop: FileInfoCardListView(
               // childAspectRatio: _size.width < 1400 ? 1.1 : 1.4,
               devices: departmentController.allDevices,
             ),
@@ -73,8 +73,8 @@ class _MyFilesState extends State<MyFiles> {
   }
 }
 
-class FileInfoCardGridView extends StatelessWidget {
-  FileInfoCardGridView({
+class FileInfoCardListView extends StatelessWidget {
+  FileInfoCardListView({
     Key? key,
     required this.devices,
     this.crossAxisCount = 4,

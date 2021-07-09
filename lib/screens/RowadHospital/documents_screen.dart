@@ -74,7 +74,7 @@ class _DocumentsScreenState extends State<DocumentsScreen> {
                     child: GridTile(
                       child: Image.network(
                         documents[index].image!,
-                        fit: BoxFit.contain,
+                        fit: BoxFit.cover,
                         loadingBuilder: (context, child, loadingProgress) {
                           if (loadingProgress == null) {
                             return child;

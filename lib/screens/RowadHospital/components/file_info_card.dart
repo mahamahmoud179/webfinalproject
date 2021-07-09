@@ -42,11 +42,12 @@ class FileInfoCard extends StatelessWidget {
               image: DecorationImage(image: NetworkImage(device.image!),fit: BoxFit.cover),
             ),
             child: Container(
+              // height: 150.0,
+              // width: 150.0,
               padding: EdgeInsets.all(defaultPadding),
               decoration: BoxDecoration(
                 color: secondaryColor.withOpacity(0.8),
                 borderRadius:  BorderRadius.circular(10),
-                image: DecorationImage(image: NetworkImage(device.image!),fit: BoxFit.cover),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
